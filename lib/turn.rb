@@ -45,6 +45,7 @@ def turn(board)
   a = get_input()
   if valid_move?(board, a) == true
     move(board, a, "X")
+    display_board(board)
   elsif valid_move?(board, a) == false
     a=get_input()
   end 
