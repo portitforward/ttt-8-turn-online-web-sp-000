@@ -33,7 +33,7 @@ def move(board, index, char)
   board[index] = char
 end
 
-def get_input
+def get_input()
   puts "Please enter 1-9:"
   a=gets.strip
   a = input_to_index(a)
